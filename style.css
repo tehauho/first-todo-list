@@ -1,0 +1,162 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainHeader {
+  color: #f2d492;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+#secondHeader {
+  color: #f2d492;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 15px;
+  background-color: #202c39;
+  overflow-y: scroll;
+}
+
+.app::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+#addNew {
+  display: flex;
+  width: 10%;
+  color: #283845;
+  background-color: #f29559;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#addNew:hover {
+  background-color: #b8b08d;
+  color: #283845;
+}
+
+#newTaskDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-plus {
+  color: #b8b08d;
+  background-color: #283845;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+#tasks div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #283845;
+  background-color: #b8b08d;
+  border: 1px solid #f2d492;
+  padding: 5px;
+  border-radius: 6px;
+  display: grid;
+  gap: 14px;
+}
+
+.options {
+  justify-self: center;
+  display: flex;
+  gap: 15px;
+}
+
+.options i {
+  cursor: pointer;
+}
+
+#msg {
+  color: red;
+}
+
+#dateMsg {
+  color: red;
+}
+
+#timeMsg {
+  color: red;
+}
+
+.showTaskDiv {
+  width: 20%;
+  margin: 15px;
+  overflow: auto;
+  word-wrap: break-word;
+}
+
+#tasks {
+  display: flex;
+}
+
+#timeInput {
+  width: 20%;
+}
+
+.modal-body {
+  background-color: #b8b08d;
+}
+
+.modal-header {
+  background-color: #f2d492;
+  margin: 0;
+  border: 1px solid #b8b08d;
+}
+
+.modal-footer {
+  background-color: #b8b08d;
+  margin: 0;
+  border: 1px solid #b8b08d;
+}
+
+#exampleModalLabel {
+  color: #202c39;
+}
+
+.form-control {
+  color: #202c39;
+  background-color: #28384544;
+  border: 1px solid #b8b08d;
+}
+
+#add {
+  color: #202c39;
+  background-color: #f29559;
+  border: 1px solid #b8b08d;
+}
+
+#close {
+  color: #b8b08d;
+  background-color: #202c39;
+  border: 1px solid #b8b08d;
+}
+
+#reset {
+  background-color: #204f76;
+  color: #b8b08d;
+  border: 1px solid #b8b08d;
+}
+
+.showTaskDiv i {
+  visibility: hidden;
+}
+
+.showTaskDiv:hover i {
+  visibility: visible;
+}
